@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">Dr. Portfolio</h3>
+            <h3 className="text-xl font-bold mb-4">SUMATHI M</h3>
             <p className="text-primary-foreground/80">
               Assistant Professor dedicated to advancing knowledge through research and inspiring the next generation of scholars.
             </p>
@@ -21,18 +21,18 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="/teaching" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
-                  Teaching
+                <a href="/Experience" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
+                  Experience
                 </a>
               </li>
               <li>
-                <a href="/research" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
-                  Research
+                <a href="/Projects" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
+                  Projects
                 </a>
               </li>
               <li>
-                <a href="/publications" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
-                  Publications
+                <a href="/Skills" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
+                  Skills
                 </a>
               </li>
             </ul>
@@ -42,45 +42,18 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Connect</h4>
             <div className="flex gap-4">
               <a
-                href="mailto:professor@university.edu"
+                href="mailto:msumathi02@gmail.com"
                 className="p-2 bg-primary-foreground/10 hover:bg-primary-foreground/20 rounded-lg transition-colors"
                 aria-label="Email"
               >
                 <Mail className="w-5 h-5" />
               </a>
-              <a
-                href="https://linkedin.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="p-2 bg-primary-foreground/10 hover:bg-primary-foreground/20 rounded-lg transition-colors"
-                aria-label="LinkedIn"
-              >
-                <Linkedin className="w-5 h-5" />
-              </a>
-              <a
-                href="https://github.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="p-2 bg-primary-foreground/10 hover:bg-primary-foreground/20 rounded-lg transition-colors"
-                aria-label="GitHub"
-              >
-                <Github className="w-5 h-5" />
-              </a>
-              <a
-                href="https://twitter.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="p-2 bg-primary-foreground/10 hover:bg-primary-foreground/20 rounded-lg transition-colors"
-                aria-label="Twitter"
-              >
-                <Twitter className="w-5 h-5" />
-              </a>
+              
             </div>
           </div>
         </div>
 
         <div className="mt-8 pt-8 border-t border-primary-foreground/20 text-center text-primary-foreground/70">
-          <p>&copy; {new Date().getFullYear()} Dr. Portfolio. All rights reserved.</p>
         </div>
       </div>
     </footer>

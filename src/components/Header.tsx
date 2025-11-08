@@ -8,9 +8,9 @@ const Header = () => {
   const navItems = [
     { to: "/", label: "Home" },
     { to: "/about", label: "About" },
-    { to: "/teaching", label: "Teaching" },
-    { to: "/research", label: "Research" },
-    { to: "/publications", label: "Publications" },
+    { to: "/Experience", label: "Experience" },
+    { to: "/Skills", label: "Skills" },
+    { to: "/Projects", label: "Projects" },
     { to: "/contact", label: "Contact" },
   ];
 
@@ -19,7 +19,6 @@ const Header = () => {
       <nav className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <NavLink to="/" className="text-2xl font-bold text-primary hover:text-primary/80 transition-colors">
-            Dr. Portfolio
           </NavLink>
 
           {/* Desktop Navigation */}
