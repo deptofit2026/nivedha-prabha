@@ -14,7 +14,7 @@ const Experience = () => {
         </Card>
         <Card className="p-6">
           <h3 className="text-xl font-semibold">Academic Role — Assistant Professor</h3>
-          <p className="text-sm text-foreground/70 mb-2">(J.J Roever Engineering College)</p>
+          <p className="text-sm text-foreground/70 mb-2">(Roever Engineering College)</p>
           <p className="text-foreground/80">Proficient in course design, student supervision, and academic counseling.</p>
         </Card>
         <Card className="p-6">

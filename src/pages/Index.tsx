@@ -46,7 +46,7 @@ const Index = () => {
               </div>
               <h3 className="text-xl font-bold">Experience</h3>
               <p className="text-foreground/70 mt-2">
-                Assitant Professor — Sri Ramakrishna college of Eng , J.J Roever Engineering college .
+                Assitant Professor — Sri Ramakrishna college of Eng , Roever Engineering college .
               </p>
             </Card>
 
